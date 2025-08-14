@@ -1,7 +1,7 @@
 // src/api/api.jsx
 import axios from "axios";
 const api = axios.create({
-baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000",
+baseURL: import.meta.env.VITE_API_URL || "https://blog-app-3-bs6l.onrender.com",
 });
 // Attach token automatically if present
 api.interceptors.request.use((config) => {
